@@ -1,12 +1,12 @@
 // js/manage-questions.js
 async function fetchQuestions() {
-  const res = await fetch('http://localhost:5000/api/questions');
+  const res = await fetch('https://quiz-4-whlr.onrender.com/api/questions');
   return await res.json();
 }
 
 async function deleteQuestion(id) {
   if(!confirm('هل أنت متأكد من حذف هذا السؤال؟')) return;
-  const res = await fetch(`http://localhost:5000/api/questions/${id}`, { method: 'DELETE' });
+  const res = await fetch(`https://quiz-4-whlr.onrender.com/api/questions/${id}`, { method: 'DELETE' });
   if(res.ok) {
     showQuestions();
   } else {

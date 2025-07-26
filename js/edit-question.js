@@ -5,13 +5,13 @@ function getIdFromUrl() {
 }
 
 async function fetchQuestion(id) {
-  const res = await fetch(`http://localhost:5000/api/questions`);
+  const res = await fetch(`https://quiz-4-whlr.onrender.com/api/questions`);
   const questions = await res.json();
   return questions.find(q => q._id === id);
 }
 
 async function updateQuestion(id, payload) {
-  const res = await fetch(`http://localhost:5000/api/questions/${id}`, {
+  const res = await fetch(`https://quiz-4-whlr.onrender.com/api/questions/${id}`, {
     method: 'PUT',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(payload)
