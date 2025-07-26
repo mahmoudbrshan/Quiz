@@ -1,0 +1,338 @@
+[
+  {
+    "question": "ما معنى: schön dass Sie bei uns sind?",
+    "option1": "سعداء بوجودكم معنا",
+    "option2": "هل أنت بخير؟",
+    "option3": "أين تسكن؟",
+    "option4": "شكراً على حضورك",
+    "answer": "سعداء بوجودكم معنا"
+  },
+  {
+    "question": "ما معنى: willkommen zu einem täter-opfer Polizei extra?",
+    "option1": "مرحباً بكم في حلقة خاصة من شرطة الجاني والضحية",
+    "option2": "الشرطة تبحث عن الجاني",
+    "option3": "الضحية في المستشفى",
+    "option4": "الشرطة ألقت القبض على الجاني",
+    "answer": "مرحباً بكم في حلقة خاصة من شرطة الجاني والضحية"
+  },
+  {
+    "question": "ما معنى: ein Verbrechen das uns hier mehr als zwei Jahrzehnte beschäftigt hat?",
+    "option1": "جريمة شغلتنا هنا لأكثر من عقدين",
+    "option2": "الجريمة حدثت أمس",
+    "option3": "الجريمة لم تُحل بعد",
+    "option4": "الجريمة بسيطة",
+    "answer": "جريمة شغلتنا هنا لأكثر من عقدين"
+  },
+  {
+    "question": "ما معنى: erst sieben Jahre später wurde ihre Leiche gefunden?",
+    "option1": "تم العثور على جثتها بعد سبع سنوات فقط",
+    "option2": "تم العثور عليها في نفس اليوم",
+    "option3": "لم يتم العثور على الجثة",
+    "option4": "تم العثور على الجاني بعد سبع سنوات",
+    "answer": "تم العثور على جثتها بعد سبع سنوات فقط"
+  },
+  {
+    "question": "ما معنى: es ist ein Tod der dazu führen wird dass ein Mord aufgeklärt werden kann?",
+    "option1": "إنه موت سيؤدي إلى كشف جريمة قتل",
+    "option2": "إنه موت طبيعي",
+    "option3": "إنه حادث سير",
+    "option4": "إنه مرض مفاجئ",
+    "answer": "إنه موت سيؤدي إلى كشف جريمة قتل"
+  },
+  {
+    "question": "ما معنى: Ermittler des Landeskriminalamtes Brandenburg sorgten letztendlich dafür?",
+    "option1": "محققو شرطة ولاية براندنبورغ قاموا بذلك في النهاية",
+    "option2": "الشرطة لم تهتم بالأمر",
+    "option3": "المحققون لم يجدوا شيئاً",
+    "option4": "الشرطة أغلقت القضية بسرعة",
+    "answer": "محققو شرطة ولاية براندنبورغ قاموا بذلك في النهاية"
+  },
+  {
+    "question": "ما معنى: sie übernahmen einen sogenannten Cold Case?",
+    "option1": "تولوا ما يسمى بقضية باردة (غير محلولة)",
+    "option2": "تولوا قضية سرقة",
+    "option3": "تولوا قضية جديدة",
+    "option4": "تولوا قضية بسيطة",
+    "answer": "تولوا ما يسمى بقضية باردة (غير محلولة)"
+  },
+  {
+    "question": "ما معنى: der Einstieg in einen solchen Fall geschieht eigentlich durch Gespräche mit Kollegen?",
+    "option1": "البداية في مثل هذه القضايا تكون عادة عبر محادثات مع الزملاء",
+    "option2": "يبدأ التحقيق فوراً دون نقاش",
+    "option3": "يتم تجاهل القضية",
+    "option4": "يتم حل القضية بسرعة",
+    "answer": "البداية في مثل هذه القضايا تكون عادة عبر محادثات مع الزملاء"
+  },
+  {
+    "question": "ما معنى: man ist noch erfolgsversprechend und wo könnte man noch mal ansetzen?",
+    "option1": "لا يزال هناك أمل في النجاح وأين يمكن البدء من جديد؟",
+    "option2": "القضية مغلقة تماماً",
+    "option3": "لا يوجد أمل في الحل",
+    "option4": "تم حل القضية بالفعل",
+    "answer": "لا يزال هناك أمل في النجاح وأين يمكن البدء من جديد؟"
+  },
+  {
+    "question": "ما معنى: die Arbeit am Mordfall beginnt für Wolfhard trennen 2012?",
+    "option1": "بدأ وولفهارت ترينن العمل على قضية القتل عام 2012",
+    "option2": "بدأ العمل عام 1993",
+    "option3": "انتهى العمل عام 2012",
+    "option4": "لم يعمل على القضية",
+    "answer": "بدأ وولفهارت ترينن العمل على قضية القتل عام 2012"
+  },
+  {
+    "question": "ما معنى: sie hatten die Hoffnung dass sich doch irgendeiner offenbaren könnte?",
+    "option1": "كان لديهم أمل أن يظهر شخص ما يعرف شيئاً",
+    "option2": "لم يكن لديهم أي أمل",
+    "option3": "كانوا متأكدين من الحل",
+    "option4": "كانوا يبحثون عن أدلة جديدة فقط",
+    "answer": "كان لديهم أمل أن يظهر شخص ما يعرف شيئاً"
+  },
+  {
+    "question": "ما معنى: aber seit langem schwieg deshalb wird er damals fast jede Woche nach Belzig?",
+    "option1": "لكن منذ فترة طويلة كان الجميع صامتين ولهذا كان يذهب كل أسبوع تقريباً إلى بيلتسيغ",
+    "option2": "الجميع كان يتحدث كثيراً",
+    "option3": "لم يذهب أبداً إلى بيلتسيغ",
+    "option4": "كان يذهب مرة واحدة فقط",
+    "answer": "لكن منذ فترة طويلة كان الجميع صامتين ولهذا كان يذهب كل أسبوع تقريباً إلى بيلتسيغ"
+  },
+  {
+    "question": "ما معنى: das heute Bad Belzig heißt mit den 8000 Einwohnern?",
+    "option1": "المدينة التي تسمى اليوم باد بيلتسيغ ويبلغ عدد سكانها 8000 نسمة",
+    "option2": "مدينة صغيرة في ألمانيا",
+    "option3": "مدينة كبيرة في برلين",
+    "option4": "مدينة بلا سكان",
+    "answer": "المدينة التي تسمى اليوم باد بيلتسيغ ويبلغ عدد سكانها 8000 نسمة"
+  },
+  {
+    "question": "ما معنى: wir haben als innere ersten Maßnahmen Kontakt mit den Eltern der Andrea aufgenommen?",
+    "option1": "اتخذنا كإجراء أولي التواصل مع والدي أندريا",
+    "option2": "تواصلنا مع الشرطة فقط",
+    "option3": "لم نتواصل مع أحد",
+    "option4": "تواصلنا مع الجيران فقط",
+    "answer": "اتخذنا كإجراء أولي التواصل مع والدي أندريا"
+  },
+  {
+    "question": "ما معنى: wir haben uns telefonisch angemeldet و sind zu Ihnen in die Wohnung gefahren?",
+    "option1": "اتصلنا بهم هاتفياً وذهبنا إلى منزلهم",
+    "option2": "أرسلنا لهم رسالة فقط",
+    "option3": "لم نذهب إلى منزلهم",
+    "option4": "تواصلنا عبر البريد الإلكتروني فقط",
+    "answer": "اتصلنا بهم هاتفياً وذهبنا إلى منزلهم"
+  },
+  {
+    "question": "ما معنى: wir hatten einen sehr emotionale Gespräch mit den Eltern?",
+    "option1": "كان لدينا حديث عاطفي جداً مع الوالدين",
+    "option2": "كان الحديث رسمياً فقط",
+    "option3": "لم نتحدث معهم",
+    "option4": "كان الحديث عن الطقس فقط",
+    "answer": "كان لدينا حديث عاطفي جداً مع الوالدين"
+  },
+  {
+    "question": "ما معنى: natürlich hatten sie Hoffnung dass die Sache geklärt wird?",
+    "option1": "بالطبع كان لديهم أمل أن تُحل القضية",
+    "option2": "لم يكن لديهم أي أمل",
+    "option3": "كانوا متأكدين من الحل",
+    "option4": "كانوا يريدون إغلاق القضية فقط",
+    "answer": "بالطبع كان لديهم أمل أن تُحل القضية"
+  },
+  {
+    "question": "ما معنى: mit den Eltern rekonstruieren die Ermittler was am Abend des 7 oktober 1993 passiert ist?",
+    "option1": "مع الوالدين أعاد المحققون بناء ما حدث مساء 7 أكتوبر 1993",
+    "option2": "أعادوا بناء الحادث مع الجيران",
+    "option3": "لم يعيدوا بناء أي شيء",
+    "option4": "أعادوا بناء الحادث في المحكمة فقط",
+    "answer": "مع الوالدين أعاد المحققون بناء ما حدث مساء 7 أكتوبر 1993"
+  },
+  {
+    "question": "ما معنى: es ist 18 Uhr Andrea kommt vom Einkaufen zurück und legt sich eine Musikkassette ein?",
+    "option1": "الساعة السادسة مساءً عادت أندريا من التسوق وشغلت شريط موسيقى",
+    "option2": "عادت أندريا من المدرسة",
+    "option3": "ذهبت أندريا إلى التسوق",
+    "option4": "شغلت التلفاز فقط",
+    "answer": "الساعة السادسة مساءً عادت أندريا من التسوق وشغلت شريط موسيقى"
+  },
+  {
+    "question": "ما معنى: Alpha will ist einer ihrer Lieblingsbands?",
+    "option1": "Alpha will هي إحدى فرقها المفضلة",
+    "option2": "Alpha will هو اسم شارع",
+    "option3": "Alpha will هو اسم صديقة",
+    "option4": "Alpha will هو نوع من الطعام",
+    "answer": "Alpha will هي إحدى فرقها المفضلة"
+  },
+  {
+    "question": "ما معنى: dann zieht sie gleich die neue gekauften Sachen an?",
+    "option1": "ثم ترتدي فوراً الملابس الجديدة التي اشترتها",
+    "option2": "تغسل الملابس الجديدة",
+    "option3": "تضع الملابس في الخزانة",
+    "option4": "تعطي الملابس لصديقتها",
+    "answer": "ثم ترتدي فوراً الملابس الجديدة التي اشترتها"
+  },
+  {
+    "question": "ما معنى: gegen 19:30 Uhr essen die lohagens Abendbrot?",
+    "option1": "حوالي الساعة 7:30 مساءً تناولت عائلة لوهاغن العشاء",
+    "option2": "تناولوا الفطور",
+    "option3": "تناولوا الغداء",
+    "option4": "لم يتناولوا أي وجبة",
+    "answer": "حوالي الساعة 7:30 مساءً تناولت عائلة لوهاغن العشاء"
+  },
+  {
+    "question": "ما معنى: danach will Andrea noch mal ins poco in den Jugendclub?",
+    "option1": "بعد ذلك أرادت أندريا الذهاب مرة أخرى إلى نادي الشباب (بوكو)",
+    "option2": "ذهبت إلى المدرسة",
+    "option3": "ذهبت إلى السوق",
+    "option4": "ذهبت إلى السينما",
+    "answer": "بعد ذلك أرادت أندريا الذهاب مرة أخرى إلى نادي الشباب (بوكو)"
+  },
+  {
+    "question": "ما معنى: ich habe noch so Spaß die sollte ich sagen muss jetzt schon wieder sein dass Du weggehst?",
+    "option1": "قلت لها مازحاً: هل يجب أن تذهبي مجدداً الآن؟",
+    "option2": "طلبت منها البقاء في المنزل",
+    "option3": "قلت لها أن تذهب بسرعة",
+    "option4": "لم أقل لها شيئاً",
+    "answer": "قلت لها مازحاً: هل يجب أن تذهبي مجدداً الآن؟"
+  },
+  {
+    "question": "ما معنى: sonst sind doch bloß immer über die Bücher?",
+    "option1": "وإلا فأنت دائماً منشغلة بالكتب فقط",
+    "option2": "أنت دائماً في المطبخ",
+    "option3": "أنت دائماً في النادي",
+    "option4": "أنت دائماً مع الأصدقاء",
+    "answer": "وإلا فأنت دائماً منشغلة بالكتب فقط"
+  },
+  {
+    "question": "ما معنى: sie war sehr fleißig in der Schule?",
+    "option1": "كانت مجتهدة جداً في المدرسة",
+    "option2": "كانت تكره المدرسة",
+    "option3": "كانت دائماً تتغيب",
+    "option4": "كانت تدرس في المنزل فقط",
+    "answer": "كانت مجتهدة جداً في المدرسة"
+  },
+  {
+    "question": "ما معنى: sie hatte viele Freunde im Jugendclub?",
+    "option1": "كان لديها الكثير من الأصدقاء في نادي الشباب",
+    "option2": "لم يكن لديها أصدقاء",
+    "option3": "كانت تذهب وحدها دائماً",
+    "option4": "كانت تكره النادي",
+    "answer": "كان لديها الكثير من الأصدقاء في نادي الشباب"
+  },
+  {
+    "question": "ما معنى: sie verschwand am Abend des 7. Oktober?",
+    "option1": "اختفت مساء 7 أكتوبر",
+    "option2": "اختفت في الصباح",
+    "option3": "اختفت في المدرسة",
+    "option4": "اختفت في السوق",
+    "answer": "اختفت مساء 7 أكتوبر"
+  },
+  {
+    "question": "ما معنى: die Polizei suchte tagelang nach ihr?",
+    "option1": "بحثت الشرطة عنها لأيام",
+    "option2": "لم تبحث الشرطة عنها",
+    "option3": "وجدتها الشرطة فوراً",
+    "option4": "بحثت العائلة فقط",
+    "answer": "بحثت الشرطة عنها لأيام"
+  },
+  {
+    "question": "ما معنى: ihre Familie war verzweifelt?",
+    "option1": "كانت عائلتها يائسة",
+    "option2": "كانت عائلتها سعيدة",
+    "option3": "كانت عائلتها في إجازة",
+    "option4": "كانت عائلتها في السوق",
+    "answer": "كانت عائلتها يائسة"
+  },
+  {
+    "question": "ما معنى: nach sieben Jahren wurde ihre Leiche gefunden?",
+    "option1": "تم العثور على جثتها بعد سبع سنوات",
+    "option2": "تم العثور عليها في نفس اليوم",
+    "option3": "لم يتم العثور عليها",
+    "option4": "تم العثور على الجاني بعد سبع سنوات",
+    "answer": "تم العثور على جثتها بعد سبع سنوات"
+  },
+  {
+    "question": "ما معنى: die Ermittlungen dauerten viele Jahre?",
+    "option1": "استمرت التحقيقات لسنوات عديدة",
+    "option2": "انتهت التحقيقات بسرعة",
+    "option3": "لم تكن هناك تحقيقات",
+    "option4": "بدأت التحقيقات بعد سنوات",
+    "answer": "استمرت التحقيقات لسنوات عديدة"
+  },
+  {
+    "question": "ما معنى: der Fall wurde als Cold Case behandelt?",
+    "option1": "تم التعامل مع القضية كقضية باردة (غير محلولة)",
+    "option2": "تم حل القضية فوراً",
+    "option3": "لم يهتم أحد بالقضية",
+    "option4": "كانت القضية بسيطة",
+    "answer": "تم التعامل مع القضية كقضية باردة (غير محلولة)"
+  },
+  {
+    "question": "ما معنى: die Eltern hofften auf eine Lösung?",
+    "option1": "كان الوالدان يأملان في حل",
+    "option2": "لم يهتم الوالدان",
+    "option3": "كان الوالدان في إجازة",
+    "option4": "كان الوالدان في المستشفى",
+    "answer": "كان الوالدان يأملان في حل"
+  },
+  {
+    "question": "ما معنى: die Polizei befragte viele Zeugen?",
+    "option1": "استجوبت الشرطة العديد من الشهود",
+    "option2": "لم تستجوب الشرطة أحداً",
+    "option3": "استجوبت الشرطة الجيران فقط",
+    "option4": "استجوبت الشرطة العائلة فقط",
+    "answer": "استجوبت الشرطة العديد من الشهود"
+  },
+  {
+    "question": "ما معنى: es gab viele Hinweise aber keine Lösung?",
+    "option1": "كان هناك العديد من الأدلة لكن لا يوجد حل",
+    "option2": "كان هناك حل سريع",
+    "option3": "لم يكن هناك أي دليل",
+    "option4": "تم حل القضية فوراً",
+    "answer": "كان هناك العديد من الأدلة لكن لا يوجد حل"
+  },
+  {
+    "question": "ما معنى: die Ermittler gaben nicht auf?",
+    "option1": "لم يستسلم المحققون",
+    "option2": "استسلم المحققون بسرعة",
+    "option3": "توقف المحققون عن العمل",
+    "option4": "غير معروف",
+    "answer": "لم يستسلم المحققون"
+  },
+  {
+    "question": "ما معنى: nach vielen Jahren wurde der Täter gefunden?",
+    "option1": "تم العثور على الجاني بعد سنوات عديدة",
+    "option2": "تم العثور على الجاني فوراً",
+    "option3": "لم يتم العثور على الجاني",
+    "option4": "تم العثور على الضحية فقط",
+    "answer": "تم العثور على الجاني بعد سنوات عديدة"
+  },
+  {
+    "question": "ما معنى: der Fall wurde in den Medien bekannt?",
+    "option1": "أصبحت القضية معروفة في وسائل الإعلام",
+    "option2": "لم يهتم الإعلام بالقضية",
+    "option3": "كانت القضية سرية",
+    "option4": "لم يعرف أحد بالقضية",
+    "answer": "أصبحت القضية معروفة في وسائل الإعلام"
+  },
+  {
+    "question": "ما معنى: die Familie bekam endlich Gewissheit?",
+    "option1": "حصلت العائلة أخيراً على اليقين",
+    "option2": "ظلت العائلة في حيرة",
+    "option3": "لم تهتم العائلة",
+    "option4": "غادرت العائلة المدينة",
+    "answer": "حصلت العائلة أخيراً على اليقين"
+  },
+  {
+    "question": "ما معنى: der Täter wurde verurteilt?",
+    "option1": "تمت إدانة الجاني",
+    "option2": "تمت تبرئة الجاني",
+    "option3": "لم يتم القبض على الجاني",
+    "option4": "هرب الجاني",
+    "answer": "تمت إدانة الجاني"
+  },
+  {
+    "question": "ما معنى: der Fall bleibt in Erinnerung?",
+    "option1": "ستبقى القضية في الذاكرة",
+    "option2": "تم نسيان القضية",
+    "option3": "تم إغلاق القضية",
+    "option4": "لم يهتم أحد بالقضية",
+    "answer": "ستبقى القضية في الذاكرة"
+  }
+]
