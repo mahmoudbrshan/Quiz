@@ -214,7 +214,7 @@ function queCounter(index){
 // جلب الأسئلة من الـ API عند بدء الاختبار
 async function fetchQuestions() {
     try {
-        const res = await fetch('http://localhost:5000/api/questions');
+        const res = await fetch('https://quiz-4-whlr.onrender.com/api/questions');
         const data = await res.json();
         // ترقيم الأسئلة تلقائياً
         questions = data.map((q, i) => ({
@@ -239,7 +239,7 @@ if(addForm){
     const answer = formData.get('answer');
     const payload = { question, options, answer };
     try {
-      const res = await fetch('http://localhost:5000/api/questions', {
+      const res = await fetch('https://quiz-4-whlr.onrender.com/api/questions', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload)
