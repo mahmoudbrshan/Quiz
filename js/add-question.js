@@ -10,7 +10,7 @@ if(addForm){
     const answer = formData.get('answer');
     const payload = { question, options, answer };
     try {
-      const res = await fetch('http://localhost:5000/api/questions', {
+      const res = await fetch('https://quiz-4-whlr.onrender.com/api/questions', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload)
@@ -88,7 +88,7 @@ async function importQuestions(questions, msg) {
     }
     if(!payload.question || !payload.options || !payload.answer) { fail++; continue; }
     try {
-      const res = await fetch('http://localhost:5000/api/questions', {
+      const res = await fetch('https://quiz-4-whlr.onrender.com/api/questions', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload)
