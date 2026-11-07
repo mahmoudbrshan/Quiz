@@ -11,6 +11,33 @@ body{
     background: #007bff;
 }
 
+.category_picker{
+    position: absolute;
+    top: 28%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: min(360px, calc(100% - 32px));
+    padding: 14px 18px;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.category_picker label{
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+.category_picker select{
+    width: 100%;
+    min-height: 40px;
+    padding: 6px 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    background: #fff;
+}
+
 ::selection{
     color: #fff;
     background: #007bff;

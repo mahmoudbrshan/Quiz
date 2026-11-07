@@ -21,9 +21,13 @@ exit_btn.onclick = ()=>{
 
 // if continueQuiz button clicked
 continue_btn.onclick = async ()=>{
+    const loaded = await fetchQuestions();
+    if(!loaded){
+        info_box.classList.remove("activeInfo");
+        return;
+    }
     info_box.classList.remove("activeInfo"); //hide info box
     quiz_box.classList.add("activeQuiz"); //show quiz box
-    await fetchQuestions();
     showQuetions(0); //calling showQestions function
     queCounter(1); //passing 1 parameter to queCounter
     startTimer(15); //calling startTimer function
@@ -211,47 +215,47 @@ function queCounter(index){
     bottom_ques_counter.innerHTML = totalQueCounTag;  //adding new span tag inside bottom_ques_counter
 }
 
-// جلب الأسئلة من الـ API عند بدء الاختبار
+const API_BASE_URL = 'https://quiz-4-whlr.onrender.com/api';
+const categoryFilter = document.getElementById('category-filter');
+
+async function loadCategories() {
+    try {
+        const response = await fetch(`${API_BASE_URL}/categories`);
+        if(!response.ok) throw new Error('Failed to load categories');
+        const categories = await response.json();
+        categories.forEach((category) => {
+            const option = document.createElement('option');
+            option.value = category._id;
+            option.textContent = category.name;
+            categoryFilter.appendChild(option);
+        });
+    } catch (err) {
+        alert('تعذر تحميل قائمة المواد من الخادم');
+    }
+}
+
+// Fetch the selected category directly from the API.
 async function fetchQuestions() {
     try {
-        const res = await fetch('https://quiz-4-whlr.onrender.com/api/questions');
+        const categoryId = categoryFilter.value;
+        const query = categoryId === 'all' ? '' : `?categoryId=${encodeURIComponent(categoryId)}`;
+        const res = await fetch(`${API_BASE_URL}/questions${query}`);
+        if(!res.ok) throw new Error('Failed to load questions');
         const data = await res.json();
-        // ترقيم الأسئلة تلقائياً
+        if(!data.length) {
+            alert('لا توجد أسئلة في المادة المختارة حتى الآن');
+            return false;
+        }
         questions = data.map((q, i) => ({
             ...q,
             numb: i + 1
         }));
+        return true;
     } catch (err) {
         alert('خطأ في جلب الأسئلة من الخادم');
         questions = [];
+        return false;
     }
 }
 
-// إضافة منطق إرسال السؤال الجديد
-const addForm = document.getElementById('add-question-form');
-const addMsg = document.getElementById('add-question-msg');
-if(addForm){
-  addForm.onsubmit = async function(e){
-    e.preventDefault();
-    const formData = new FormData(addForm);
-    const question = formData.get('question');
-    const options = [formData.get('option1'), formData.get('option2'), formData.get('option3'), formData.get('option4')];
-    const answer = formData.get('answer');
-    const payload = { question, options, answer };
-    try {
-      const res = await fetch('https://quiz-4-whlr.onrender.com/api/questions', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(payload)
-      });
-      if(res.ok){
-        addMsg.textContent = 'تمت إضافة السؤال بنجاح!';
-        addForm.reset();
-      } else {
-        addMsg.textContent = 'فشل في إضافة السؤال';
-      }
-    } catch(err){
-      addMsg.textContent = 'خطأ في الاتصال بالخادم';
-    }
-  }
-}
+loadCategories();

@@ -1,12 +1,21 @@
 // js/manage-questions.js
+const API_BASE_URL = 'https://quiz-4-whlr.onrender.com/api';
+
 async function fetchQuestions() {
-  const res = await fetch('https://quiz-4-whlr.onrender.com/api/questions');
+  const res = await fetch(`${API_BASE_URL}/questions`);
+  if(!res.ok) throw new Error('تعذر تحميل الأسئلة');
+  return await res.json();
+}
+
+async function fetchCategories() {
+  const res = await fetch(`${API_BASE_URL}/categories`);
+  if(!res.ok) throw new Error('تعذر تحميل التصنيفات');
   return await res.json();
 }
 
 async function deleteQuestion(id) {
   if(!confirm('هل أنت متأكد من حذف هذا السؤال؟')) return;
-  const res = await fetch(`https://quiz-4-whlr.onrender.com/api/questions/${id}`, { method: 'DELETE' });
+  const res = await fetch(`${API_BASE_URL}/questions/${encodeURIComponent(id)}`, { method: 'DELETE' });
   if(res.ok) {
     showQuestions();
   } else {
@@ -15,17 +24,25 @@ async function deleteQuestion(id) {
 }
 
 async function showQuestions() {
-  const questions = await fetchQuestions();
   const list = document.getElementById('questions-list');
+  let questions, categories;
+  try {
+    [questions, categories] = await Promise.all([fetchQuestions(), fetchCategories()]);
+  } catch(err) {
+    list.innerHTML = `<div class="alert alert-danger">${err.message}</div>`;
+    return;
+  }
+  const categoryNames = new Map(categories.map(category => [category._id, category.name]));
   if(!questions.length) {
     list.innerHTML = '<div class="alert alert-warning">لا توجد أسئلة</div>';
     return;
   }
-  let html = '<div class="table-responsive"><table class="table table-bordered table-striped align-middle"><thead><tr><th>#</th><th>السؤال</th><th>الإجابة</th><th>خيارات</th><th>إجراءات</th></tr></thead><tbody>';
+  let html = '<div class="table-responsive"><table class="table table-bordered table-striped align-middle"><thead><tr><th>#</th><th>السؤال</th><th>التصنيف</th><th>الإجابة</th><th>خيارات</th><th>إجراءات</th></tr></thead><tbody>';
   questions.forEach((q, i) => {
     html += `<tr>
       <td>${i+1}</td>
       <td>${q.question}</td>
+      <td>${categoryNames.get(q.categoryId) || 'غير مصنف'}</td>
       <td>${q.answer}</td>
       <td>${q.options.map(opt => `<div>${opt}</div>`).join('')}</td>
       <td>

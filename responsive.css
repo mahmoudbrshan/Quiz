@@ -1,0 +1,197 @@
+html{
+    min-width: 320px;
+}
+
+body{
+    min-width: 320px;
+}
+
+.navbar .navbar-collapse{
+    display: block !important;
+}
+
+.navbar .navbar-nav{
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 991.98px){
+    .navbar .navbar-collapse{
+        flex-basis: 100%;
+    }
+
+    .navbar .navbar-nav{
+        gap: 0 12px;
+    }
+}
+
+@media (max-width: 767.98px){
+    .category_picker{
+        top: 24%;
+    }
+
+    .start_btn,
+    .info_box,
+    .quiz_box,
+    .result_box{
+        position: fixed;
+        max-width: calc(100vw - 24px);
+    }
+
+    .info_box,
+    .quiz_box,
+    .result_box{
+        width: calc(100vw - 24px);
+        max-height: calc(100vh - 24px);
+        overflow-y: auto;
+        overscroll-behavior: contain;
+    }
+
+    .info_box .info-title{
+        min-height: 56px;
+        height: auto;
+        padding: 12px 18px;
+        font-size: 18px;
+    }
+
+    .info_box .info-list{
+        padding: 12px 18px;
+    }
+
+    .info_box .info-list .info{
+        font-size: 15px;
+    }
+
+    .info_box .buttons{
+        padding: 0 12px;
+    }
+
+    .quiz_box header{
+        min-height: 64px;
+        height: auto;
+        gap: 10px;
+        padding: 12px 16px;
+    }
+
+    .quiz_box header .title{
+        font-size: clamp(15px, 4vw, 19px);
+    }
+
+    .quiz_box header .timer{
+        flex: 0 0 125px;
+        width: 125px;
+    }
+
+    .quiz_box header .timer .time_left_txt{
+        font-size: 14px;
+    }
+
+    section{
+        padding: 20px 16px 16px;
+    }
+
+    section .que_text{
+        font-size: clamp(18px, 5vw, 23px);
+        overflow-wrap: anywhere;
+    }
+
+    section .option_list{
+        padding: 16px 0;
+    }
+
+    section .option_list .option{
+        gap: 8px;
+        padding: 10px 12px;
+        font-size: 15px;
+        overflow-wrap: anywhere;
+    }
+
+    footer{
+        min-height: 56px;
+        height: auto;
+        gap: 8px;
+        padding: 8px 16px;
+    }
+
+    footer .total_que{
+        font-size: 14px;
+    }
+
+    footer button{
+        min-height: 40px;
+        height: auto;
+        font-size: 15px;
+    }
+
+    .result_box{
+        padding: 20px 16px;
+    }
+
+    .result_box .icon{
+        font-size: 76px;
+    }
+
+    .result_box .complete_text{
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .result_box .score_text span{
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .result_box .buttons{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 8px;
+        margin: 14px 0 4px;
+    }
+
+    .result_box .buttons button{
+        margin: 0;
+        padding: 0 14px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 420px){
+    .category_picker{
+        top: 23%;
+        padding: 12px 14px;
+    }
+
+    .start_btn button{
+        padding: 13px 24px;
+        font-size: 21px;
+    }
+
+    .quiz_box header{
+        padding-right: 12px;
+        padding-left: 12px;
+    }
+
+    .quiz_box header .timer{
+        flex-basis: 112px;
+        width: 112px;
+        padding: 0 6px;
+    }
+
+    section,
+    footer{
+        padding-right: 12px;
+        padding-left: 12px;
+    }
+}
+
+@media (max-height: 600px) and (max-width: 767.98px){
+    .category_picker{
+        top: 18%;
+    }
+
+    .start_btn{
+        top: 58%;
+    }
+}
